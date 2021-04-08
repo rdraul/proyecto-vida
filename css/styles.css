@@ -9,6 +9,7 @@ body{
 }
 img{
     width: 90%;
+    height: 300px;
     border: solid 2px #D9AFD9;
     text-align: center;
     padding: 50px 25px;
@@ -25,28 +26,41 @@ img{
     width: 30%;
     padding:0;
         margin-top: 20px;
-    background: rgb(4, 0, 255);
+        background-image: linear-gradient(0deg, #97D9E1 0%, #D9AFD9 100%);
     position: fixed;
     /* position: absolute; */
     /* top: 0;
     height: 200px; */
 }
 .menu li{
-    background: rgb(0, 13, 53);
     padding: 10px;
     min-width: 300px;
     list-style: none;
+    text-align: center;
+}
+.menu ol{
+    margin: 0;
+    padding: 0;
 }
 .menu a{
     text-decoration: none;
-    color: white;
+    color: black;
     /* padding: 10px; */
 }
 .menu li:hover{
-    background: blue;
+    background-image: linear-gradient(0deg, #d694d6 0%, #70d2dd 100%);
     cursor: pointer;
 }
 .contenido{
     float: right;
     width: 60%;
+}
+.perfil img{
+    border:solid #70d2dd 2px;
+    padding: 1px;
+    border-radius: 50%;
+    width: 200px;
+    margin-top: 2rem;
+    margin-left: 30%;
+    background-color: #d694d6;
 }
